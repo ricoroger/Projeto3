@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+
+main {
+    width: 390px;
+    height: 800px;
+    background: #FFFFFF;
+}
+
+button {
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 91px;
+    height: 31px;
+    border-Radius: 6px;
+    margin: 17px 15px 30px 284px;
+    background: #6FBF44;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border: 3px solid #4CB538;
+}
+
+button:active {
+    border: none;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 28px;
+    Line-height: 30px;
+    letter-spacing: .6px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    color: #161A49;
+}
+
+p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 33px;
+    letter-spacing: .5px;
+    text-align: justify;
+    margin: 30px 10px 10px 20px;
+    margin-bottom: 5px;
+    color: #4B505A;
+    width: 340px;
+    height: 165;
+}
+
+a {
+    font-size: 18px;
+    line-height: 27px;
+    color: #6FBF44;
+    margin: 5px 0 70px 120px;
+    cursor: pointer;
+}
+
+.img1 {
+    margin: 80px 10px 10px 45px;
+}
+.img2 {
+    display: none;
+}
+
+.menu {
+    display: none;
+}
+
+
+/* inicio Desktop */
+
+
+
+@media screen and (min-width: 800px) {
+
+
+
+    main {
+        width: auto;
+        height: 100%hv;
+        background: #FFFFFF;
+        position: absolute;
+    }
+
+    .menu {
+        display: inline-flex;
+        padding: 15px;
+        margin-left: 15px;
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        line-height: 18px;
+        color: #FFFFFF;
+        width: 91px;
+        height: 31px;
+        border-Radius: 6px;
+        margin: 35px;
+        background: #6FBF44;
+        letter-spacing: 1px;
+        cursor: pointer;
+        border: 3px solid #4CB538;
+    }
+
+    button:active {
+        border: none;
+    }
+
+    
+    .sessao2 {
+
+        position: absolute;
+        top: 100px;
+        left: 5px;
+        width: 590px;
+        height: 500px;
+        background: #FFFFFF;        
+
+
+    }
+
+    .sessao1 {
+
+        position:relative;
+        background: #FFFFFF;
+        width: 493px;
+        height: 120x;
+        left: 650px;
+        top: 100px;
+        margin-left: 20px;
+        
+        
+    }
+    
+    h1 {
+
+        font-weight: 700;
+        font-size: 40px;
+        Line-height: 40px;
+        letter-spacing: .6px;
+        text-align: left;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        color: #161A49;
+
+    }
+    p{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 43px;
+        letter-spacing: .5px;
+        text-align: justify;
+        margin: 30px 10px 10px 20px;
+        margin-bottom: 5px;
+        color: #4B505A;
+        width: 500px;
+        height: 165;
+    }
+    .img2 {
+        margin: 20px 10px 10px 45px;
+        display: inline;
+    }
+    .img1 {
+        display: none;
+    }
+    a {
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 43px;
+        letter-spacing: .5px;
+        color: #6FBF44;
+        margin: 5px 0 70px 120px;
+        cursor: pointer;
+    }
+
+}
